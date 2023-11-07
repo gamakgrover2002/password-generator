@@ -30,7 +30,7 @@ button:hover {
 }
 #container {
   display: grid;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: auto auto auto auto auto auto;
 }
 #child {
   border: solid 2px blue;
