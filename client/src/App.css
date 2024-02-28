@@ -76,7 +76,7 @@ h1 {
 #password-container {
   font-size: 1em;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: auto auto;
 }
 #child {
   border: 1px solid white;
