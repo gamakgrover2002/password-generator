@@ -74,6 +74,8 @@ h1 {
   text-align: center;
 }
 #password-container {
+  position: absolute;
+
   font-size: 1em;
   display: grid;
   grid-template-columns: auto auto;
