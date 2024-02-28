@@ -12,7 +12,7 @@ function App() {
 
   const senddata = async () => {
     try {
-      var res = await fetch("http://localhost:4000/data", {
+      var res = await fetch("https://backend-password-generator.onrender.com/data", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -32,7 +32,7 @@ function App() {
     Setlength(e.target.value);
   };
   const getdata = async () => {
-    const res = await fetch("http://localhost:4000/");
+    const res = await fetch("https://backend-password-generator.onrender.com/");
     const result = await res.json();
 
     Setpassword(result);
