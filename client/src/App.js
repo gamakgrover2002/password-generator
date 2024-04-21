@@ -61,7 +61,7 @@ function App() {
         </button>
         <br />
         <h4>Password generated: {generated.current}</h4>
-        <br />
+       
       </div>
       <div id="subcontainer">
         {arr.map((e) => {
